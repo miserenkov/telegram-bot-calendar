@@ -64,7 +64,7 @@ try {
 
     $bot->command('start', function ($message) use ($bot) {
         /** @var \TelegramBot\Api\Types\Message $message */
-        $bot->sendMessage($message->getChat()->getId(), 'Hey!');
+        $bot->sendMessage($message->getChat()->getId(), "Hey!\n/calendar - отобразить календарь");
     });
 
     $bot->command('calendar', function ($message) use ($bot) {
