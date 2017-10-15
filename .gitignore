@@ -1,0 +1,6 @@
+.well-known/
+vendor/
+composer.lock
+env.php
+test.php
+.idea/
